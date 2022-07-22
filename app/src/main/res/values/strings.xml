@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">cozinha</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_button">...:: Click para Entrar ::...</string>
+    <string name="dummy_content">Sistema APP\nCozinha</string>
 </resources>
