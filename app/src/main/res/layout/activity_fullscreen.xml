@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FullFrameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/fullscreenBackgroundColor"
+    android:background="@drawable/novalogocozinha"
     android:theme="@style/ThemeOverlay.Cozinha.FullscreenContainer"
     tools:context=".FullscreenActivity">
 
@@ -18,13 +19,14 @@
         android:keepScreenOn="true"
         android:text="@string/dummy_content"
         android:textColor="#FFFFFF"
-        android:textSize="50sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         tools:ignore="TextContrastCheck" />
 
     <!-- This FrameLayout insets its children based on system windows using
          android:fitsSystemWindows. -->
     <FrameLayout
+        android:id="@+id/LinearFrameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
